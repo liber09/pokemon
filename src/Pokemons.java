@@ -6,4 +6,5 @@ public class Pokemons {
         this.name = name;
         this.type = type;
     }
+    
 }
