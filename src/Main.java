@@ -11,6 +11,15 @@ public class Main {
         pokedex.add(pika2);
         pokedex.add(bulba1);
         pokedex.add(bulba2);
+
+
+        for(Pokemons p:pokedex){
+            //System.out.println("Name: "+p.getName());
+            p.attack();
+        }
+        bulba2.talk();
+
+        
     }
 
 
